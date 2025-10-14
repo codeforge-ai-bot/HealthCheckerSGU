@@ -1,132 +1,132 @@
-# 🏥 Health Checker - AI-Powered Healthcare Assistant
+# 🏥 Health Checker - Trợ lý Chăm sóc sức khỏe được hỗ trợ bằng AI
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20App-blue?style=for-the-badge)](https://healthcheckersgu-996c684714f1.herokuapp.com/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-green?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com/)
 [![AI Powered](https://img.shields.io/badge/AI-Google%20Gemini-orange?style=for-the-badge&logo=google)](https://ai.google.dev/)
 
-> **A comprehensive AI-powered healthcare management platform that revolutionizes personal health monitoring and medical consultation through advanced artificial intelligence.**
+> **Một nền tảng quản lý chăm sóc sức khỏe được hỗ trợ bởi AI toàn diện, cách mạng hóa việc theo dõi sức khỏe cá nhân và tư vấn y tế nhờ trí tuệ nhân tạo tiên tiến.**
 
-## 🌟 Overview
+## 🌟 Tổng quan
 
-Health Checker is an innovative web application that combines cutting-edge AI technology with practical healthcare management tools. Built with Flask and powered by Google Gemini AI, this platform provides intelligent health analysis, personalized medical consultations, and automated health reminders to help users maintain optimal wellness.
+Health Checker là một ứng dụng web sáng tạo kết nối công nghệ AI tiên tiến với các công cụ quản lý chăm sóc sức khỏe thiết thực. Được xây dựng với Flask và được hỗ trợ bởi Google Gemini AI, nền tảng này cung cấp phân tích sức khỏe thông minh, tư vấn y tế cá nhân hóa và nhắc nhở sức khỏe tự động để giúp người dùng duy trì sức khỏe tối ưu.
 
-**🔗 Live Application:** [https://healthcheckersgu-996c684714f1.herokuapp.com/](https://healthcheckersgu-996c684714f1.herokuapp.com/)
+**🔗 Ứng dụng trực tiếp:** [https://healthcheckersgu-996c684714f1.herokuapp.com/](https://healthcheckersgu-996c684714f1.herokuapp.com/)
 
-## ✨ Key Features
+## ✨ Các tính năng nổi bật
 
-### 🤖 AI-Powered Medical Analysis
-- **Medical Document Analysis**: Upload and analyze medical records, prescriptions, and lab reports using advanced OCR and AI interpretation
-- **Physical Health Assessment**: AI-powered body composition analysis through image recognition
-- **Intelligent Health Insights**: Comprehensive health recommendations based on analyzed data
+### 🤖 Phân tích Y tế được hỗ trợ bởi AI
+- **Phân tích Tài liệu Y tế**: Tải lên và phân tích hồ sơ y tế, đơn thuốc và báo cáo xét nghiệm bằng OCR tiên tiến và diễn giải bằng AI
+- **Đánh giá Sức khỏe Thể chất**: Phân tích thành phần cơ thể bằng AI thông qua nhận diện hình ảnh
+- **Những Gợi ý Sức khỏe Thông minh**: Khuyến nghị sức khỏe toàn diện dựa trên dữ liệu đã phân tích
 
-### 🩺 Virtual AI Doctor
-- **Voice-Enabled Consultation**: Real-time voice interaction with AI medical assistant
-- **Text-to-Speech Integration**: Natural conversation flow using ElevenLabs TTS technology
-- **Multilingual Support**: Primarily Vietnamese with English capabilities
-- **Medical Knowledge Base**: Extensive AI training for accurate health guidance
+### 🩺 Bác sĩ AI ảo
+- **Tư vấn bằng Giọng nói**: Tương tác bằng giọng nói theo thời gian thực với trợ lý y tế AI
+- **Tích hợp Chuyển văn bản sang giọng nói**: Chuyển văn bản thành giọng nói tự nhiên bằng công nghệ TTS của ElevenLabs
+- **Hỗ trợ Đa ngôn ngữ**: Hỗ trợ Đa ngôn ngữ: Chủ yếu tiếng Việt với khả năng tiếng Anh
+- **Cơ sở Kiến thức Y tế**: Cơ sở kiến thức y tế được AI đào tạo sâu rộng để cung cấp hướng dẫn sức khỏe chính xác
 
-### 📅 Smart Health Management
-- **Intelligent Reminders**: Automated medication, exercise, and checkup notifications
-- **Flexible Scheduling**: Daily, weekly, and monthly reminder frequencies
-- **Email Notifications**: Automated email alerts for important health activities
-- **Timezone Awareness**: Vietnam timezone optimization for accurate scheduling
+### 📅 Quản lý Sức khỏe Thông minh
+- **Nhắc nhở Thông minh**: Thông báo tự động về thuốc, tập luyện và lịch khám
+- **Lịch trình Linh hoạt**: Tần suất nhắc nhở hàng ngày, hàng tuần và hàng tháng
+- **Thông báo qua Email**: Cảnh báo email cho các hoạt động sức khỏe quan trọng
+- **Nhận diện múi giờ**: Tối ưu múi giờ Việt Nam để lập lịch chính xác
 
-### 📊 Comprehensive Health History
-- **Analysis Tracking**: Complete history of all medical document analyses
-- **Health Progress Monitoring**: Track physical health assessments over time
-- **Consultation Archive**: Searchable history of AI doctor interactions
-- **Data Export**: Easy access to historical health data
+### 📊 Lịch sử Sức khỏe Toàn diện
+- **Theo dõi Phân tích**: Lịch sử đầy đủ của mọi phân tích tài liệu y tế
+- **Theo dõi Tiến triển Sức khỏe**: Theo dõi các đánh giá sức khỏe thể chất theo thời gian
+- **Lưu trữ Tư vấn**: Lịch sử đối thoại với bác sĩ AI có thể tra cứu
+- **Xuất Dữ liệu**: Truy cập dễ dàng vào dữ liệu sức khỏe lịch sử
 
-### 🔐 Secure User Management
-- **Email Verification**: Secure account creation with email confirmation
-- **Password Protection**: Encrypted password storage with industry-standard hashing
-- **Session Management**: Secure user sessions with JWT token authentication
-- **Data Privacy**: GDPR-compliant data handling and storage
+### 🔐 Quản trị Người dùng An toàn
+- **Xác thực Email**: Tạo tài khoản an toàn với xác thực email
+- **Bảo mật Mật khẩu**: Lưu trữ mật khẩu được mã hóa với chuẩn băm ngành
+- **Quản lý Phiên**: Phiên người dùng an toàn với xác thực JWT
+- **Quyền riêng tư Dữ liệu**: Xử lý và lưu trữ dữ liệu tuân thủ GDPR
 
-## 🛠️ Technology Stack
+## 🛠️ Bộ công nghệ
 
-### Backend Architecture
-- **Framework**: Flask (Python) - Lightweight and scalable web framework
-- **Database**: MySQL with SQLAlchemy ORM for robust data management
-- **AI Integration**: Google Gemini 2.0 Flash for advanced language processing
-- **Voice Processing**: ElevenLabs API for natural text-to-speech conversion
-- **Task Scheduling**: APScheduler for automated reminder system
+### Kiến trúc Backend
+- **Framework**: Flask (Python) - Framework web nhẹ và có thể mở rộng
+- **Cơ sở dữ liệu**: MySQL với ORM SQLAlchemy cho quản lý dữ liệu mạnh mẽ
+- **Tích hợp AI**: Google Gemini 2.0 Flash cho xử lý ngôn ngữ tiên tiến
+- **Xử lý Giọng nói**: ElevenLabs API cho chuyển đổi văn bản thành giọng nói tự nhiên
+- **Lên lịch Công việc**: APScheduler cho hệ nhắc nhở tự động
 
-### Cloud Infrastructure
-- **Hosting**: Heroku with automatic scaling capabilities
-- **File Storage**: Cloudinary for optimized image and audio storage
-- **Email Service**: Gmail SMTP integration for reliable notifications
-- **Database**: AWS RDS MySQL for high-availability data storage
+### Hạ tầng Đám mây
+- ** Hosting**: Heroku với khả năng tự động mở rộng
+- ** Lưu trữ Tệp**: Cloudinary cho lưu trữ hình ảnh và âm thanh tối ưu
+- ** Dịch vụ Email**: Gmail SMTP tích hợp cho thông báo đáng tin cậy
+- ** Cơ sở Dữ liệu**: AWS RDS MySQL cho lưu trữ dữ liệu có sẵn cao
 
-### Frontend Technologies
-- **UI Framework**: Bootstrap 5 for responsive design
-- **JavaScript**: Modern ES6+ for interactive features
-- **CSS3**: Custom styling with mobile-first approach
-- **Icons**: Font Awesome for professional iconography
+### Công nghệ Frontend
+- **UI Framework**: Bootstrap 5 cho thiết kế đáp ứng
+- **JavaScript**: ES6+ hiện đại cho các tính năng tương tác
+- **CSS3**: Thiết kế tùy chỉnh theo hướng ưu tiên di động
+- **Icon**: Font Awesome cho biểu tượng chuyên nghiệp
 
-## 🚀 Installation & Setup
+## 🚀 Cài đặt & Thiết lập
 
-### Prerequisites
-- Python 3.9 or higher
-- MySQL database
-- Google Gemini API key
-- ElevenLabs API key
-- Cloudinary account
+### Yêu cầu trước
+- Python 3.9 trở lên
+- Cơ sở dữ liệu MySQL
+- Khoá API Google Gemini
+- Khoá API ElevenLabs
+- Tài khoản Cloudinary
 
-### Local Development
+### Phát triển tại máy
 
-1. **Clone the Repository**
+1. **Clone Kho lưu trữ**
    ```bash
    git clone https://github.com/zaikaman/health-checker.git
    cd health-checker
    ```
 
-2. **Install Dependencies**
+2. **Cài đặt phụ thuộc**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Environment Configuration**
+3. **Cấu hình Môi trường**
    ```bash
-   # Set up your environment variables
+   # Thiết lập biến môi trường của bạn
    export GEMINI_API_KEY="your_gemini_api_key"
    export ELEVENLABS_API_KEY="your_elevenlabs_api_key"
    export DATABASE_URL="your_mysql_connection_string"
    ```
 
-4. **Database Setup**
+4. **Cài đặt Cơ sở Dữ liệu**
    ```bash
-   # The application will automatically create tables on first run
+   # Ứng dụng sẽ tự động tạo bảng khi chạy lần đầu
    python app.py
    ```
 
-5. **Run the Application**
+5. **Chạy Ứng dụng**
    ```bash
    python app.py
-   # or for production
+   # hoặc cho sản phẩm
    gunicorn app:app --preload
    ```
 
-## 📱 Usage Guide
+## 📱 Hướng dẫn Sử dụng
 
-### Getting Started
-1. **Sign Up**: Create an account with email verification
-2. **Login**: Access your personalized dashboard
-3. **Upload Documents**: Analyze medical records and prescriptions
-4. **Health Assessment**: Upload photos for AI-powered physical analysis
-5. **Consult AI Doctor**: Voice or text consultation with medical AI
-6. **Set Reminders**: Create automated health notifications
+### Bắt đầu
+1. **Đăng ký**: Tạo tài khoản với xác thực email
+2. **Đăng nhập**: Truy cập bảng điều khiển cá nhân
+3. **Tải lên Tài liệu**: Phân tích hồ sơ y tế và đơn thuốc
+4. **Đánh giá Sức khỏe**: Tải lên ảnh cho phân tích thể chất bằng AI
+5. **Tư vấn với AI Bác sĩ**: Tư vấn bằng giọng nói hoặc văn bản với AI y tế
+6. **Thiết lập Nhắc nhở**: Tạo thông báo sức khỏe tự động
 
-### API Endpoints
-- `GET /` - Main dashboard
-- `POST /file_analysis` - Medical document analysis
-- `POST /health_analysis` - Physical health assessment
-- `POST /analyze_audio` - AI doctor voice consultation
-- `GET /history` - Analysis history retrieval
-- `POST /reminders` - Health reminder management
+### Điểm cuối API
+- `GET /` - Bảng điều khiển chính
+- `POST /file_analysis` - Phân tích tài liệu y tế
+- `POST /health_analysis` - Đánh giá sức khỏe thể chất
+- `POST /analyze_audio` - Tư vấn giọng nói của bác sĩ AI
+- `GET /history` - Lịch sử phân tích
+- `POST /reminders` - Quản lý nhắc nhở sức khỏe
 
-## 🏗️ Project Structure
+## 🏗️ Cấu trúc Dự án
 
 ```
 health-checker/
@@ -153,34 +153,34 @@ health-checker/
 └── uploads/             # Temporary file storage
 ```
 
-## 🔧 Database Schema
+## 🔧 Mô hình Cơ sở dữ liệu
 
-### Core Models
-- **User**: Authentication and profile management
-- **FileAnalysis**: Medical document analysis records
-- **HealthAnalysis**: Physical health assessment data
-- **AiDoctor**: AI consultation conversation history
-- **HealthReminder**: Automated notification system
+### Mô hình Cốt lõi
+- **User**: Xác thực và quản lý hồ sơ
+- **FileAnalysis**: Ghi lại phân tích tài liệu y tế
+- **HealthAnalysis**: Dữ liệu đánh giá sức khỏe thể chất
+- **AiDoctor**: Lịch sử hội thoại tư vấn AI
+- **HealthReminder**: Hệ thống nhắc nhở bằng thông báo tự động
 
-## 🌐 Deployment
+## 🌐 Triển khai
 
-The application is production-ready and deployed on Heroku with:
-- Automatic SSL certificates
-- Horizontal scaling capabilities
-- Continuous deployment from Git
-- Environment variable management
-- Database connection pooling
+Ứng dụng đã sẵn sàng cho triển khai và được triển khai trên Heroku với:
+- Chứng chỉ SSL tự động
+- Khả năng mở rộng theo chiều ngang
+- Triển khai liên tục từ Git
+- Quản lý biến môi trường
+- Kết nối cơ sở dữ liệu được tối ưu
 
-## 🔮 Future Enhancements
+## 🔮 Các cải tiến tương lai
 
-- **Mobile Application**: Native iOS and Android apps
-- **Wearable Integration**: Apple Watch and Fitbit connectivity
-- **Advanced Analytics**: Machine learning health trend analysis
-- **Telemedicine**: Video consultation capabilities
-- **Multi-language Support**: Expanded language options
-- **API Documentation**: OpenAPI/Swagger integration
+- **Ứng dụng di động**: Ứng dụng native iOS và Android
+- **Tích hợp thiết bị đeo**: Kết nối Apple Watch và Fitbit
+- **Phân tích nâng cao**: Phân tích xu hướng sức khỏe bằng học máy
+- **Telemedicine**: Tư vấn từ xa bằng video
+- **Hỗ trợ đa ngôn ngữ**: Mở rộng các ngôn ngữ
+- **Tài liệu API**: Tích hợp OpenAPI/Swagger
 
-## 👨‍💻 Developer
+## 👨‍💻 Nhà phát triển
 
 **Đinh Phúc Thịnh**
 - 💼 **LinkedIn**: [https://www.linkedin.com/in/đinh-phúc-thịnh-2561b5274](https://www.linkedin.com/in/%C4%91inh-ph%C3%BAc-th%E1%BB%8Bnh-2561b5274)
@@ -197,17 +197,17 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 🙏 Acknowledgments
 
-- Google Gemini AI for advanced language processing
-- ElevenLabs for natural voice synthesis
-- Cloudinary for reliable media storage
-- The open-source community for amazing tools and libraries
+- Google Gemini AI cho xử lý ngôn ngữ tiên tiến
+- ElevenLabs cho tổng hợp giọng nói tự nhiên
+- Cloudinary cho lưu trữ phương tiện đáng tin cậy
+- Cộng đồng mở nguồn cho các công cụ và thư viện tuyệt vời
 
 ---
 
 <div align="center">
 
-**Built with ❤️ for better healthcare accessibility**
+**Xây dựng với ❤️ để cải thiện khả năng tiếp cận chăm sóc sức khỏe**
 
-*Making AI-powered healthcare available to everyone, everywhere.*
+*Làm cho chăm sóc sức khỏe được hỗ trợ bởi AI đến với mọi người, ở mọi nơi.*
 
 </div>
